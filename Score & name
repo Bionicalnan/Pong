@@ -1,0 +1,64 @@
+'''import pygame
+
+pygame.init()
+
+screen = pygame.display.set_mode([1000, 1000])
+
+screen =  pygame.display.set_caption ( "Score & players")
+running = True
+
+x = 500
+
+y = 500
+
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_LEFT:
+                x -=10
+            if event.key == pygame.K_RIGHT:
+                x +=10
+            if event.key == pygame.K_UP:
+                y -=10
+            if event.key == pygame.K_DOWN:
+                y +=10
+
+    screen.fill((0, 0,))
+
+    pygame.draw.rect(screen, (0, 0, 255), (x, y), 75)
+
+    print (str("x : {} , y : {}").format(x,y) )
+
+    pygame.display.flip()
+
+pygame.quit()'''
+#title screne
+
+print('PONG')
+print('\n ')
+player1=input( "Player1 enter your name")
+print("Player1:" + " " + player1)
+
+player2=input( "player2 enter your name")
+print("Player2:" + " " + player2)
+print('\n')
+
+#score and useername
+print('''(print(player1)  score                                                                                         print(player2) score
+                                                     |                                                                         
+                                                     |                                                 
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |                                                                       ]''')
